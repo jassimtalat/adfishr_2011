@@ -1,0 +1,98 @@
+body { background: #ededed url(../images/header-bg.png) center 30px repeat-x; letter-spacing: 1px; }
+.clearfloat {clear:both;}
+#wrapper {}
+a {color: black; text-decoration: none;}
+.spacer { height:10px;}.spacer2 { height:30px;}
+
+/*HEADER*/
+#header {width: 1000px; margin: 45px auto 13px auto; }
+.contact-info { height:30px; font: normal 12px 'HelveticaNeueLTStd47LtCn'; float:right; margin:-35px 50px 0 0; color:#acacac;}
+.logo {float: left; color: white; font: bold 25px "Century Gothic"; margin-left: 50px; }
+.logo a {color: white; text-decoration:none;}
+.logo a:hover {background: white; color: #14aae3;}
+.navigation {float: right; width: 400px; text-align:right; margin-right: 30px;  letter-spacing:0;}
+.navigation li {float:left; color: white; float: left; display:inline-block; margin-top:5px;}
+.navigation li a {color: white; text-decoration:none;  font: normal 16px 'HelveticaNeueLTStd47LtCn';padding: 3px 20px 10px 20px; margin-left:5px; }
+.navigation a:hover { background:url(../images/nav-hover.png) repeat-x; color:black; }
+.select {background:url(../images/nav-hover.png) repeat-x;}
+.select a {color:black;}
+
+
+/*BANNER*/
+#banner { background: white; width: 900px; margin: 0 auto; padding: 40px 50px;}
+.banner-left-content {float: left; width: 500px;}
+.banner-left-content2 {float: left; width: 380px;}
+.banner-right-content {float: right; }
+.banner-right-content2 {float: right; width: 500px;}
+
+.tag{ font: normal 72px 'HelveticaNeueLTStd37ThCn';}
+
+.blue-bt-big {background:url(../images/bt-bg.png) repeat-x; width: 200px; color: white; font: normal 24px 'HelveticaNeueLTStd47LtCn'; padding: 5px 10px; text-align: center; display: block;}
+.blue-bt-big a { color: white; text-decoration:none; display: block;}
+.blue-bt-big a:hover { color:black;}
+#banner-2 { background: #f9f9f9; width: 900px; margin: 0 auto; padding: 30px 50px; border-top: 1px solid #f0f0f0;border-bottom: 1px solid #f0f0f0; font: normal 20px 'HelveticaNeueLTStd37ThCn'; }
+.banner2-left-content {float: left; width: 440px;}
+.banner3-left-content {float: left; width: 340px;}
+
+.banner2-right-content {float: right; width: 440px;}
+.banner3-right-content {float: right; width: 540px;}
+
+#banner-2 p {margin: 20px 0; }
+#banner-2 h1 {font: normal 36px 'HelveticaNeueLTStd67MdCn';}
+
+/*CONTENT*/
+#content {background: white; width: 900px; margin: 0 auto 50px auto; padding:30px 50px;}
+.content-left {width: 630px; float: left;}
+.content-left p { font: normal 20px/28px 'HelveticaNeueLTStd47LtCn';}
+.content-right {float: right;}
+.bluetxt { font: normal 15px 'HelveticaNeueLTStd47LtCn'; color:#14aae3; width:50px; float: left; margin-top: 8px; } 
+.contacttxt {font: normal 23px 'HelveticaNeueLTStd67MdCn'; }
+
+/*blue heading container*/
+.banner-blue-tag-cont, .banner-blue-tag-cont2, .banner-blue-tag-cont3 { margin : 20px 40px 0 -65px;background: url(../images/blue-bt-fold.png) 0 84px no-repeat; height: 120px; z-index: 10;} 
+.banner-blue-tag-cont2 {height: 60px;margin : 0 0 0 -65px;background: url(../images/blue-bt-fold.png) 0 43px no-repeat;}
+.banner-blue-tag-cont3 {height: 60px;margin : 0 -65px 0 0;background: url(../images/rblue-bt-fold.png) right 43px no-repeat;}
+/*left blue heading*/
+.banner-blue-tag { background: #14aae3; font: normal 20px 'HelveticaNeueLTStd37ThCn'; color: white;  padding: 20px 20px 20px 70px;}
+.banner-blue-tag2 { background: #14aae3;font: normal 27px 'HelveticaNeueLTStd47LtCn'; width: 230px; padding: 6px 20px 6px 70px; color:white; }
+.banner-blue-tag3 { background: #14aae3;font: normal 27px 'HelveticaNeueLTStd47LtCn'; width: 515px; padding: 6px 20px 6px 70px; color:white; }
+.banner-blue-tag4 { background: #14aae3;font: normal 20px 'HelveticaNeueLTStd47LtCn'; width: 195px; padding: 10px 0 0 60px;  height:33px; color:white; }
+
+/*right lbue heading*/
+.banner-rblue-tag-cont, .banner-rblue-tag-cont2 { margin : 20px -65px 0 40px;background: url(../images/rblue-bt-fold.png) right 84px no-repeat; height: 120px; z-index: 10;} 
+.banner-rblue-tag-cont p {font: normal 18px 'HelveticaNeueLTStd67MdCn'; text-transform: uppercase; margin-top:50px;}
+.banner-rblue-tag-cont2 {height: 70px;margin : 0 -65px 0 0;background: url(../images/blue-bt-fold.png) 0 43px no-repeat;}
+.banner-rblue-tag { background: #14aae3; font: normal 20px 'HelveticaNeueLTStd37ThCn'; color: white;  padding: 20px 70px 20px 20px;}
+.banner-rblue-tag2 { background: #14aae3;font: normal 27px 'HelveticaNeueLTStd47LtCn'; width: 230px; padding: 6px 20px 6px 70px; color:white; }
+
+.content-menu {float: left; width: 190px;}
+.left-menu {background:#f4f4f4;font: normal 14px 'HelveticaNeueLTStd47LtCn'; margin-top:-17px;}
+.left-menu li a{ padding:15px 0 15px 24px; display:block; border-bottom: 1px dotted #fff; background:url(../images/left-menu-bg.png) bottom repeat-x;}
+.left-menu li a:hover{  background: #0d0d0d; color: white;}
+.content-right2 {float: right; width: 670px;  font: normal 16px/24px 'HelveticaNeueLTStd47LtCn';}
+.content-right2 a { color:#13aae3;}
+.content-right2 h1{ color:#14aae3; font: normal 20px 'HelveticaNeueLTStd67MdCn'; margin-top: 8px;}
+.content-right2 h2{font: normal 16px 'HelveticaNeueLTStd67MdCn'; background:url(../images/icon-bullet.png) 0 no-repeat; padding-left: 10px; margin-left: -10px;}
+.bigbluetxt { font: normal 30px 'HelveticaNeueLTStd67MdCn'; color:#14aae3; background:url(../images/icon-bullet.png) 0 no-repeat; margin: 0 2px 0 -10px; padding-left: 10px;}
+.table { font: normal 14px/16px 'HelveticaNeueLTStd47LtCn';  letter-spacing: .5px; }
+.table-padd {padding:20px 0 0 0;}
+.table-head {color:#fff; font-size: 15px; font-family:'HelveticaNeueLTStd67MdCn';}
+.number-right {float:right; width: 200px; margin-top: 7px; text-align:right;}
+.number-bottom {}
+.number-circle { background:url(../images/nmb-circle.png) no-repeat; color: white;  height: 40px; padding:6px ;}
+
+
+
+/*FOOTER*/
+#footer { background: #0d0d0d; color: #5c5c5c; font: normal 13px 'HelveticaNeueLTStd37ThCn'; }
+.copyright {float: left;}
+.scorpio {text-align:right; font-size:13px; padding-right: 10px;}
+.footer-container { width: 900px; margin: 0 auto; padding:20px 50px 40px 20px;}
+.footer-adfisher {font: bold 25px "Century Gothic"; color:white;}
+#footer p {margin: 10px 0;}
+#footer img {margin: 10px 10px 0 0;}
+.footer-navigation { float: right; margin-top: 50px; font-size: 14px;}
+.footer-navigation span { margin: 0 10px;}
+.footer-navigation a { color: #5c5c5c; text-decoration: none;}
+.footer-navigation a:hover { color:white;}
+
